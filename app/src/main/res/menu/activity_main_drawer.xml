@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/story_start"
+            android:icon="@drawable/my_story"
+            android:title="发现"/>
+        <item
+            android:id="@+id/nav_squabble"
+            android:icon="@drawable/squabble"
+            android:title="探索"/>
+        <item
+            android:id="@+id/nav_sweet"
+            android:icon="@drawable/love"
+            android:title="往事"/>
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/video"
+            android:title="Video"/>
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_interesting"
+                android:icon="@drawable/interesting"
+                android:title="回忆"/>
+            <item
+                android:id="@+id/nav_affect"
+                android:icon="@drawable/affect"
+                android:title="后续"/>
+        </menu>
+    </item>
+</menu>
+

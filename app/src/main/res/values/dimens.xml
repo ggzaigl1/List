@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <dimen name="actionbar_dimen">56dp</dimen>
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="common_margin_left">2.5dp</dimen>
+  <dimen name="nav_header_vertical_spacing">16dp</dimen>
+  <dimen name="nav_header_height">160dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="padding_top">0dp</dimen>
+  <dimen name="app_bar_height">180dp</dimen>
+  <dimen name="text_margin">16dp</dimen>
+</resources>

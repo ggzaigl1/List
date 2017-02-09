@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".widger.VideoViewActivity">
+
+    <RelativeLayout
+        android:id="@+id/voide_layout"
+        android:layout_width="match_parent"
+        android:layout_height="480px"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </VideoView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_below="@id/voide_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <Button
+            android:text="播放"
+            android:id="@+id/play_start"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:text="暂停"
+            android:id="@+id/play_pause"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:text="停止"
+            android:id="@+id/play_stop"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:text="测试"
+            android:id="@+id/test"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>

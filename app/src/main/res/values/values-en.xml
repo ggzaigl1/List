@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Name">hello</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+</resources>

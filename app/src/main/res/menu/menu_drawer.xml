@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item1"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="页面顶部是一张图片" />
+
+        <item
+            android:id="@+id/nav_item2"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="tab 切换" />
+        <item
+            android:id="@+id/nav_item3"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="第二种方案" />
+
+        <item
+            android:id="@+id/nav_item4"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="第三种方案" />
+    </group>
+
+</menu>
