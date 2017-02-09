@@ -8,7 +8,7 @@
 
     <include layout="@layout/custom_toolbar"/>
 
-    <com.gab.myapplication.ViewPagerIndicator
+    <Application.ViewPagerIndicator
         android:id="@+id/id_viewpager_indicator"
         android:layout_width="match_parent"
         android:layout_height="45dp"

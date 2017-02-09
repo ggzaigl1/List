@@ -17,49 +17,49 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="Application.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".xrecycler.GridActivity"
+            android:name="Application.xrecycler.GridActivity"
             android:label="@string/app_name" />
         <activity
-            android:name=".xrecycler.StaggeredGridActivity"
+            android:name="Application.xrecycler.StaggeredGridActivity"
             android:label="@string/app_name" />
         <activity
-            android:name=".BlankActivity"
+            android:name="Application.BlankActivity"
             android:label="@string/app_name" />/>
-        <activity android:name=".Navigationactivity" />
-        <activity android:name=".xrecycler.XRecyclerViews" />
-        <activity android:name=".xrecycler.XRecyclerActivity" />
+        <activity android:name="Application.Navigationactivity" />
+        <activity android:name="Application.xrecycler.XRecyclerViews" />
+        <activity android:name="Application.xrecycler.XRecyclerActivity" />
         <activity
-            android:name=".recycleviewday.RecyclerViewDay"
+            android:name="Application.recycleviewday.RecyclerViewDay"
             android:theme="@style/AppThemes" />
         <activity
-            android:name=".recyclerviewdelete.Deleteactivity"
+            android:name="Application.recyclerviewdelete.Deleteactivity"
             android:theme="@style/AppThemes" />
         <activity
-            android:name=".recycleviewhead.RecycleviewStickyhead"
+            android:name="Application.recycleviewhead.RecycleviewStickyhead"
             android:theme="@style/AppThemes" />
         <activity
-            android:name=".ProgressWeb.ProgressWebViewActivity"
+            android:name="Application.ProgressWeb.ProgressWebViewActivity"
             android:theme="@style/AppThemes" />
-        <activity android:name=".StatusBarColor.BaseActivity" />
-        <activity android:name=".StatusBarColor.StatusBarMainActivity" />
+        <activity android:name="Application.StatusBarColor.BaseActivity" />
+        <activity android:name="Application.StatusBarColor.StatusBarMainActivity" />
         <activity
-            android:name=".StatusBarColor.PlanThreeActivity"
+            android:name="Application.StatusBarColor.PlanThreeActivity"
             android:configChanges="keyboard|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
-        <activity android:name=".StatusBarColor.TopImageActivity" />
-        <activity android:name=".StatusBarColor.TabActivity" />
-        <activity android:name=".StatusBarColor.PlanTwoActivity" />
-        <activity android:name=".ViewPageIndicator" />
-        <activity android:name=".ScrollingActivity" />
+        <activity android:name="Application.StatusBarColor.TopImageActivity" />
+        <activity android:name="Application.StatusBarColor.TabActivity" />
+        <activity android:name="Application.StatusBarColor.PlanTwoActivity" />
+        <activity android:name="Application.ViewPageIndicator" />
+        <activity android:name="Application.ScrollingActivity" />
     </application>
 
 </manifest>
